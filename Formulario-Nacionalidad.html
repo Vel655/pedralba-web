@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+<header>
+        <h1>Pedralba</h1>
+         <p><strong>El Mejor Pueblo</strong><p/>
+         <nav>
+         <a href="Historia.html">Historia</a>
+        <a href="Cultura.html">Cultura</a>
+        <a href="Economía.html">Economía</a>
+
+        </nav>
+            </header>
+<main>
+    <h1>Formulario Pedralbino</h1>
+<p>Al rellenar este formulario estás buscando obtener la nacionalidad pedralbina, con todo lo que ello conlleva, beneficios y obligaciones.</p>
+<br>
+<form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+
+        <br><br>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha"
+       min="1900-01-01" max="2026-11-04" required>
+
+        <br><br>
+
+        <label for="aceptar">Acepto las condiciones:</label>
+        <input type="checkbox" id="aceptar" name="aceptar" required>
+
+        <br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <br>
+        <textarea id="mensaje" name="mensaje" rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</main>
+<footer>
+          <p>Página creada por el ministerio de asuntos exteriores de Pedralba</p>
+          </footer>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
